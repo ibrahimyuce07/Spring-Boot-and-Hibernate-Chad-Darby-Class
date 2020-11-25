@@ -1,0 +1,15 @@
+	1 Constructor injection: 
+01	Coach interface'i  ve getDailyWorkout() metot imzası olusturduk.
+02	Bu interface'ten implement olan Coach classları olusturduk TrackCoach vs.
+03	XML konfigürasyonunda TrackCoach bean'ini tanımladık.(Artık koçlar arasında geçiş yapmak için sadece Buradaki TrackCoach'ı değiştirmemiz yeterli.)
+04	HelloSpringApp isminde main class olusturduk.
+05	ClassPathXmlApplicationContext ile XML konfigürasyonumuzun ismini belirttik.
+06	Coach coach = context.getBean("myCoach", Coach.class); ile Spring container'dan istediğimiz bean'i alıyoruz. myCoach = id Coach.class = sınıf
+07	coach.getDailyWorkout() ile istediğimiz metotu bean üzerinden çağırıyoruz.
+08	FortuneService interface'i ve getFortune metot imzası olusturduk
+09	Bu interface'ten implement olan HappyFortune gibi classlarımızı olusturduk.
+10	XML konfigürasyonunda HappyFortune beanini tanımladık. id = myFortune (bkz. madde 3)
+11	Coach, Fortune'dan referans alacağı için  <constructor-arg ref="myFortune"/> tanımını kullanıyoruz.
+12	TrackCoach üzerinde private FortuneService alanı tanımladık ve constructor'ını oluşturduk.
+13	Artık main metot'ta coach.getDailyFortune() yazarak getDailyFortune class'ını direkt coach üzerinden çağırabiliriz. 
+

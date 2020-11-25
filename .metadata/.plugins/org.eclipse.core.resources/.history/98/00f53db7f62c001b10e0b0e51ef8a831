@@ -1,0 +1,9 @@
+Constructor injection: 
+1	Coach interface'i oluşturduk ve getDailyWorkout() metot imzası olusturduk.
+2	Bu interface'ten implement olan Coach classları olusturduk TrackCoach vs.
+3	XML konfigürasyonunda TrackCoach bean'ini tanımladık.(Artık koçlar arasında geçiş yapmak için sadece Buradaki TrackCoach'ı değiştirmemiz yeterli.)
+4	HelloSpringApp isminde main class olusturduk.
+5	ClassPathXmlApplicationContext ile XML konfigürasyonumuzun ismini belirttik.
+6	Coach coach = context.getBean("myCoach", Coach.class); ile Spring container'dan istediğimiz bean'i alıyoruz. myCoach = id Coach.class = sınıf
+7	coach.getDailyWorkout() ile istediğimiz metotu bean üzerinden çağırıyoruz.
+8	

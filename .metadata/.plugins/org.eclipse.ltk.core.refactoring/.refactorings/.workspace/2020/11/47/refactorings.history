@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Rough Prototype&apos; to &apos;spring-demo-one&apos;&#x0D;&#x0A;- Original element: &apos;Rough Prototype&apos;&#x0D;&#x0A;- Renamed element: &apos;Rough Prototype&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Rough Prototype&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Rough Prototype" name="spring-demo-one" references="true" stamp="1606067590502" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+package com.springdemo;
+
+public class TrackCoack implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
