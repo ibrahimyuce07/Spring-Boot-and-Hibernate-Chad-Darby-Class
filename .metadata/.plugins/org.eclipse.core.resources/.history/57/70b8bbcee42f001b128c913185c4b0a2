@@ -1,0 +1,16 @@
+package com.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		
+		//load spring config file
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+		//retrieve beans from spring container
+		
+
+	}
+
+}
