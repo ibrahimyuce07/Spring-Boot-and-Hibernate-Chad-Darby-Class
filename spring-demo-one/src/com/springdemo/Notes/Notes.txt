@@ -34,5 +34,4 @@ BÖLÜM 4 bean scopes and lifecycle
 	> custom init method > BEAN READY FOR USE > container.close > custom destroy method > STOP
 05	custom init ve destroy method ilgili class icerisinde (mesela Trackcoach) tanımlanıp xml'de init-method ve destroy method attribute'i ile belirtilir. 
 
-BÖLÜM 5 anotasyonlar
-01	config xml dosyasına component scan ekle > java classlarına @component anotasyonu ekle > bean'i spring container'dan al.
+

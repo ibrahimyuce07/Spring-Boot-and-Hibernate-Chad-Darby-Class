@@ -1,4 +1,5 @@
 LaunchTargetManager/configs/BeanScopeDemoApp=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/DemoAppAnnotation=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/HelloSpringApp=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/MyApp=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/PracticeHelloSpringApp=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -8,7 +9,7 @@ LaunchTargetManager/configs/SpringHelloApp=org.eclipse.launchbar.core.launchTarg
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:CostructorDemoApp,org.eclipse.launchbar.core.descriptorType.default\:MyApp,org.eclipse.launchbar.core.descriptorType.default\:PracticeHelloSpringApp,org.eclipse.launchbar.core.descriptorType.default\:Solution,org.eclipse.launchbar.core.descriptorType.default\:SetterDemoApp,org.eclipse.launchbar.core.descriptorType.default\:BeanLifeCycleDemoApp,org.eclipse.launchbar.core.descriptorType.default\:BeanScopeDemoApp
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:CostructorDemoApp,org.eclipse.launchbar.core.descriptorType.default\:MyApp,org.eclipse.launchbar.core.descriptorType.default\:PracticeHelloSpringApp,org.eclipse.launchbar.core.descriptorType.default\:Solution,org.eclipse.launchbar.core.descriptorType.default\:SetterDemoApp,org.eclipse.launchbar.core.descriptorType.default\:BeanLifeCycleDemoApp,org.eclipse.launchbar.core.descriptorType.default\:BeanScopeDemoApp,org.eclipse.launchbar.core.descriptorType.default\:DemoAppAnnotationPA4,org.eclipse.launchbar.core.descriptorType.default\:DemoAppAnnotation
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:CostructorDemoApp/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:CostructorDemoApp/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
