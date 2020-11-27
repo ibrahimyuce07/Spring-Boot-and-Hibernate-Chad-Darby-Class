@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=spring-demo-one/src&lt;com.springdemo{Coach.java[Coach" modifiers="513" timestamp="1606070303707"/>
-    <typeInfo handle="=spring-demo-one/src&lt;com.springdemo{FortuneService.java[FortuneService" modifiers="513" timestamp="1606070317232"/>
+    <typeInfo handle="=spring-demo-annotations/src&lt;com.springdemo{ICoach.java[ICoach" modifiers="513" timestamp="1606404684426"/>
+    <typeInfo handle="=spring-demo-annotations/src&lt;com.springdemo{IFortuneService.java[IFortuneService" modifiers="513" timestamp="1606404579172"/>
 </typeInfoHistroy>

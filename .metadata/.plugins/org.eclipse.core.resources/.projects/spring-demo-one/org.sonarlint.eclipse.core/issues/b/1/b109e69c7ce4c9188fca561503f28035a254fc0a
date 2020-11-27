@@ -1,9 +1,9 @@
 
-o	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘†¢ıÿÿÿÿ8Ü‹…Œß.H7RMAJORZ
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘†¢ıÿÿÿÿ8Ü‹…Œß.H‚RMAJORZ
 CODE_SMELL
-o	java:S106"9Replace this use of System.out or System.err by a logger.(¬åşÿÿÿÿ8í“„Œß.H6RMAJORZ
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¬åşÿÿÿÿ8í“„Œß.HƒRMAJORZ
 CODE_SMELL
-j	java:S106"9Replace this use of System.out or System.err by a logger.(ô¿æƒ8­ß¡Œß.H@RMAJORZ
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÿş¾8­ß¡Œß.H„RMAJORZ
 CODE_SMELL
-j	java:S106"9Replace this use of System.out or System.err by a logger.(ÿş¾8­ß¡Œß.HARMAJORZ
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ô¿æƒ8­ß¡Œß.H…RMAJORZ
 CODE_SMELL

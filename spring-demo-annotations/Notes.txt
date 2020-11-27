@@ -12,3 +12,7 @@ BÖLÜM 5 dependency injections with annotations and AUTOWIRING
 03	öneri : stay consistent on your projects. projende yalnızca bir tanesini seçip kullanmaya dikkat et.
 04	aynı interface'ten birden fazla @autowired class olursa (HappyFortuneService, RandomFortuneService, RESTFortuneService etc.) 
 	@Qualifier anotasyonunu kullanmalıyız. @Qualifier("id name") (yine özel ad verilmedikçe camelCase yapısı geçerli olabilir.)  
+
+BÖLÜM 6 spring config with annotations
+01	@Scope("prototype"), ilgili class üzerinde scope'unu tanımla.
+02	@PostConstruct ve @PreDestroy, xml'deki init ve destroy attributeleri gibi. Yine ilgili class altına. Herhangi bir tip olabilir ama genelde void. no-arg

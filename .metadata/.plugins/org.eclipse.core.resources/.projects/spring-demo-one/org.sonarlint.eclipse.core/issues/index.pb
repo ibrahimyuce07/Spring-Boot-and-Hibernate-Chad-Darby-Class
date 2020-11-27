@@ -29,3 +29,15 @@ J
 src/applicationContext.xml,c\e\cec9352f48053368035b4634c8f196da3a1e47d4
 ^
 .src/com/springdemo/PracticeHelloSpringApp.java,d\b\dbc78ab3fbb85ae0cc61a830fef7296a5bb447a5
+X
+(src/com/springdemo/LifeCycleDemoApp.java,d\3\d3e6f53ac02673f09598eb70e92074b1e9ddc153
+T
+$src/beanScope-applicationContext.xml,b\9\b90a522acab9181109451923b857acbb95bee00f
+\
+,src/com/springdemo/BeanLifeCycleDemoApp.java,c\c\ccf6dc14206dd466ade017beed98ee4aa9662c11
+X
+(src/com/springdemo/BeanScopeDemoApp.java,2\4\24e9599a4e53f6ed6ab1509594d540ac6453bd23
+X
+(src/beanLifeCycle-applicationContext.xml,7\a\7a4fd558eb2abcf670846557f1f42c5702197cf2
+R
+"src/com/springdemo/Notes/Notes.txt,f\9\f9b15b39e5ed5a06aca5d8ad4443ab75c7af3bb8
