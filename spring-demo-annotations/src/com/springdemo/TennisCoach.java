@@ -20,18 +20,18 @@ public class TennisCoach implements ICoach {
 		System.out.println("This is a default constructor inside TennisCoach");
 	}
 
-	//define my init method
+	// define my init method
 	@PostConstruct
 	public void doMyStartupStuff() {
 		System.out.println(">>TennisCoach inside #doMyStartupStuff");
 	}
-	//define my destroy method
+
+	// define my destroy method
 	@PreDestroy
 	public void doMyCleanupStuff() {
 		System.out.println(">>TennisCoach inside #doMyCleanupStuff");
 	}
-	
-	
+
 	/*
 	 * //SETTER INJECTION //define a default constructor public TennisCoach() {
 	 * System.out.println(">>TennisCoach : inside default constructor."); } //define

@@ -16,3 +16,19 @@ BÖLÜM 5 dependency injections with annotations and AUTOWIRING
 BÖLÜM 6 spring config with annotations
 01	@Scope("prototype"), ilgili class üzerinde scope'unu tanımla.
 02	@PostConstruct ve @PreDestroy, xml'deki init ve destroy attributeleri gibi. Yine ilgili class altına. Herhangi bir tip olabilir ama genelde void. no-arg
+
+BÖLÜM 7 spring config with java code, no xml
+01	Bir class olusturup @Configuration anotasyonu verdik
+02	@ComponentScan ile base package belirtilebilir ama opsiyonel
+03	main app'de AnnotationConfigApplicationContext ile tanımlıyoruz artık xml yok cünkü
+04	sadfortune ve swimcoach
+05	sportconfig'de sad fortune ve swimcoach için method
+06	main app'te bean id'yi swimcoach ile degistir.
+
+BÖLÜM 8 injecting values from properties file
+00	properties file olustur > spring config icine properties file yukle (@PropertySource) > properties file'dan referans değerleri al
+01	properties file olusturduk
+02	swimcoach içine @Value ile yazdık ve getter olusturduk
+03	main app içerisinde yeni metotları cagırdık
+
+

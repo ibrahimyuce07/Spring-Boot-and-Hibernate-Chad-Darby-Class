@@ -7,7 +7,7 @@ public class DatabaseFortuneService implements IFortuneService {
 
 	@Override
 	public String getFortune() {
-		
+
 		return null;
 	}
 

@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
@@ -23,12 +22,12 @@ public class FileFortuneService implements IFortuneService {
 	public void readFortunesFromTheFile() {
 		System.out.println("Here is the list of all available fortunes:");
 		System.out.println("############################");
-		for(String fortune:theFortunes) {
+		for (String fortune : theFortunes) {
 			System.out.println(fortune);
 		}
 		System.out.println("############################");
 	}
-	
+
 	// create a random number generator
 	private Random myRandom = new Random();
 
