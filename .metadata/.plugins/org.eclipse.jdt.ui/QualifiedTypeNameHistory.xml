@@ -34,4 +34,8 @@
     <fullyQualifiedTypeName name="com.springdemo.IFortuneService"/>
     <fullyQualifiedTypeName name="com.springdemo.BasketballCoachPA7"/>
     <fullyQualifiedTypeName name="com.springdemo.PA7Config"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 </qualifiedTypeNameHistroy>

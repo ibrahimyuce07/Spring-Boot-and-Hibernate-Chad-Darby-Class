@@ -1,0 +1,30 @@
+body {
+	background-color: lightblue;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	margin: auto;
+	text-shadow: aqua;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
