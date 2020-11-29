@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
 encoding//WebContent/WEB-INF/view/helloworld-form.jsp=UTF-8
+encoding//WebContent/WEB-INF/view/kullaniciBirlestir.jsp=UTF-8
+encoding//WebContent/WEB-INF/view/kullaniciBirlestirFormu.jsp=UTF-8
+encoding//WebContent/WEB-INF/view/main-menu.jsp=UTF-8
+encoding//WebContent/WEB-INF/view/student-form.jsp=UTF-8

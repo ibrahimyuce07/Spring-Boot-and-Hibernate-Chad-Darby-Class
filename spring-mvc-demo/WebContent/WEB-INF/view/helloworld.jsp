@@ -1,51 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-footer {
- position:fixed;
-   left:0px;
-   bottom:0px;
-   height:20px;
-   width:100%;
-}
-</style>
-<meta charset="ISO-8859-1">
 <title>Hello World</title>
+<link rel="stylesheet" type="text/css"
+	href="..\resources\css\helloworld.css">
 </head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <body>
 
-Hello World of Spring!
-<br/>
-<!-- studentName is the actual name of the html form field.  name="studentName" -->
-Student name : ${param.studentName}
-<br/>
-<!-- message : attribute name from the model in controller -->
-The message : ${message}
-
-
-
+	<h2>Hello World of Spring!</h2>
+	<hr>
+	<br />
+	<!-- studentName is the actual name of the html form field.  name="studentName" -->
+	<p>
+		Student name : <b>${param.studentName}</b>
+	</p>
+	<br />
+	<!-- message : attribute name from the model in controller -->
+	<p>The message : ${message}</p>
 
 
 
@@ -67,7 +41,7 @@ The message : ${message}
 
 
 </body>
-<footer >
-<a href="/spring-mvc-demo">Main Menu</a>
+<footer>
+	<a href="/spring-mvc-demo">Main Menu</a>
 </footer>
 </html>

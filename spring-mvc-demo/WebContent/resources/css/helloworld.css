@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+body {
+	background-color: lightblue;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	text-shadow: aqua;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	margin: auto;
+	text-shadow: aqua;
+}
+
+ul li{
+	width: 10%;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+    font-family: verdana;
+    color: black;
+    text-shadow: aqua;
+}

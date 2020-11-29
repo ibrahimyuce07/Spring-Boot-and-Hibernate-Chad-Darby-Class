@@ -1,5 +1,11 @@
 body {
 	background-color: lightblue;
+	
+}
+
+.container{
+  width: 100%;
+  text-align: center;
 }
 
 h2 {
@@ -12,19 +18,30 @@ h2 {
 p {
 	font-family: verdana;
 	font-size: 20px;
+	text-align: center;
+	
 }
 
 a:link, a:visited {
-  background-color: white;
-  color: black;
-  border: 2px solid green;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	background-color: white;
+	color: black;
+	border: 2px solid green;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: blink;
+	display: inline-block;
+  font-weight: bold;
+
 }
 
 a:hover, a:active {
-  background-color: green;
-  color: white;
+	background-color: green;
+	color: white;
+}
+.userformlink {
+	
+    text-align: center;
+    margin:0 auto;
+    
+}
 }

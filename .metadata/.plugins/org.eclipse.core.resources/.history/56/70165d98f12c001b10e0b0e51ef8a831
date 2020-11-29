@@ -1,5 +1,0 @@
-package com.springdemo;
-
-public interface FortuneService {
-
-}
