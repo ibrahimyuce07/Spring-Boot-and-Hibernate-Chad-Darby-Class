@@ -6,8 +6,6 @@
 <title>Hello World - Input Form</title>
 <link rel="stylesheet" type="text/css"
 	href="..\resources\css\helloworld-form.css">
-
-
 </head>
 
 <body>

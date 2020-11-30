@@ -11,16 +11,23 @@
 <body>
 	<h2>Spring MVC Demo - Home Page</h2>
 	<hr>
+	<br>
 	<div class="container">
 		<a href="hello/showForm">User Form !</a>
 	</div>
-		<div class="container">
+	<br>
+	<div class="container">
 		<a href="hello/showTestForm">Fullname Merge</a>
 	</div>
-		
-		<div class="container">
+	<br>
+	<div class="container">
 		<a href="student/showForm">Student Form</a>
 	</div>
+	<br>
+	<div class="container">
+		<a href="customer/showForm">Customer Form</a>
+	</div>
+	<br>
 </body>
 
 <footer> </footer>

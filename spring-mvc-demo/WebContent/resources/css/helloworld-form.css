@@ -15,7 +15,7 @@ div {
 	text-align: center;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=number] , input[type=range] , select, textarea {
 	width: 30%;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -34,4 +34,8 @@ input[type=submit] {
 	float: none;
 	margin: 10px;
 	padding: 10px;
+}
+
+.error {
+	color:red;
 }
