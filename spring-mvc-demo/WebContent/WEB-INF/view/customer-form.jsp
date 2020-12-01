@@ -36,6 +36,11 @@
 			<form:input path="postalCode" placeholder="Postal Code" />
 			<br>
 			<form:errors path="postalCode" cssClass="error" />
+			<form:input path="courseCode" placeholder="Course Code" />
+			<br>
+			<form:errors path="courseCode" cssClass="error" />
+			
+			
 <br><br>
 			<input type="submit" value="Submit" />
 
